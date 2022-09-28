@@ -1,3 +1,3 @@
-const css = require('./index.css')
+const css = require("./index.css");
 
-console.log( css )
+console.log(css);
