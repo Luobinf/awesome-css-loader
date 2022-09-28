@@ -7,7 +7,7 @@
   \***************************************************************************/
 /***/ (() => {
 
-throw new Error("Module parse failed: Unexpected token (4:2)\nFile was processed with these loaders:\n * ./lib/src/css-loader.js\nYou may need an additional loader to handle the result of these loaders.\n| /* @import './index.css'; */\n| \n> p {\n|     color: red;\n|     display: flex;");
+throw new Error("Module parse failed: Unexpected token (3:2)\nFile was processed with these loaders:\n * ./lib/src/css-loader.js\nYou may need an additional loader to handle the result of these loaders.\n| /* @import './index.css'; */\n| \n> p {\n|     color: red;\n|     display: flex;");
 
 /***/ }),
 
