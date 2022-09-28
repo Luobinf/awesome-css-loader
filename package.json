@@ -49,6 +49,7 @@
     "mime-types": "^2.1.35",
     "moment": "^2.29.4",
     "npm": "^8.19.2",
+    "postcss-value-parser": "^4.2.0",
     "three": "^0.142.0"
   }
 }
