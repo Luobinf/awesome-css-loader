@@ -54,13 +54,13 @@ module.exports = {
               // url: false,
               // import: true,
               // // esModule: false,
-              // importLoaders: 1
+              importLoaders: 1
             },
           },
-          // {
-          //   loader: 'postcss-loader',
+          {
+            loader: 'postcss-loader',
             
-          // }
+          }
         ],
         include: path.resolve("src"),
       },

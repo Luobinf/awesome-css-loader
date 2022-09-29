@@ -1,13 +1,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./src/index.css":
-/*!***************************************************************************!*\
-  !*** ./lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./src/index.css ***!
-  \***************************************************************************/
+/***/ "./lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/index.css":
+/*!*********************************************************************************************************************!*\
+  !*** ./lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/index.css ***!
+  \*********************************************************************************************************************/
 /***/ (() => {
 
-throw new Error("Module parse failed: Unexpected character '@' (2:0)\nFile was processed with these loaders:\n * ./lib/src/css-loader.js\nYou may need an additional loader to handle the result of these loaders.\n| /* @import '       '; */\n> @import './global.css';\n| /* @import './index.css'; */\n| ");
+throw new Error("Module parse failed: Unexpected token (4:2)\nFile was processed with these loaders:\n * ./lib/src/css-loader.js\n * ./node_modules/postcss-loader/dist/cjs.js\nYou may need an additional loader to handle the result of these loaders.\n| /* @import './index.css'; */\n| \n> p {\n|     color: red;\n|     display: -ms-flexbox;");
 
 /***/ }),
 
@@ -34,10 +34,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _lib_src_css_loader_js_ruleSet_1_rules_0_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./index.css */ "./lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./src/index.css");
-/* harmony import */ var _lib_src_css_loader_js_ruleSet_1_rules_0_use_1_index_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_lib_src_css_loader_js_ruleSet_1_rules_0_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _lib_src_css_loader_js_ruleSet_1_rules_0_use_1_node_modules_postcss_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!../node_modules/postcss-loader/dist/cjs.js!./index.css */ "./lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/index.css");
+/* harmony import */ var _lib_src_css_loader_js_ruleSet_1_rules_0_use_1_node_modules_postcss_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_lib_src_css_loader_js_ruleSet_1_rules_0_use_1_node_modules_postcss_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
-/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _lib_src_css_loader_js_ruleSet_1_rules_0_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _lib_src_css_loader_js_ruleSet_1_rules_0_use_1_index_css__WEBPACK_IMPORTED_MODULE_6__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _lib_src_css_loader_js_ruleSet_1_rules_0_use_1_node_modules_postcss_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _lib_src_css_loader_js_ruleSet_1_rules_0_use_1_node_modules_postcss_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6__[__WEBPACK_IMPORT_KEY__]
 /* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
 
       
@@ -60,12 +60,12 @@ options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWi
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()((_lib_src_css_loader_js_ruleSet_1_rules_0_use_1_index_css__WEBPACK_IMPORTED_MODULE_6___default()), options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()((_lib_src_css_loader_js_ruleSet_1_rules_0_use_1_node_modules_postcss_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6___default()), options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((_lib_src_css_loader_js_ruleSet_1_rules_0_use_1_index_css__WEBPACK_IMPORTED_MODULE_6___default()) && (_lib_src_css_loader_js_ruleSet_1_rules_0_use_1_index_css__WEBPACK_IMPORTED_MODULE_6___default().locals) ? (_lib_src_css_loader_js_ruleSet_1_rules_0_use_1_index_css__WEBPACK_IMPORTED_MODULE_6___default().locals) : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((_lib_src_css_loader_js_ruleSet_1_rules_0_use_1_node_modules_postcss_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6___default()) && (_lib_src_css_loader_js_ruleSet_1_rules_0_use_1_node_modules_postcss_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6___default().locals) ? (_lib_src_css_loader_js_ruleSet_1_rules_0_use_1_node_modules_postcss_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_6___default().locals) : undefined);
 
 
 /***/ }),
