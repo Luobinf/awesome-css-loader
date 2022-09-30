@@ -51,7 +51,7 @@ module.exports = {
           {
             loader: path.join(__dirname, 'lib/src/index.js'),
             options: {
-              // url: false,
+              url: true,
               // import: true,
               // // esModule: false,
               importLoaders: 1
