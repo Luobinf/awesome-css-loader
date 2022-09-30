@@ -1,10 +1,4 @@
-/* @import './index.less'; */
-
 body {
     background-color: skyblue;
     display: flex;
-}
-
-p {
-    font-size: 20px;
 }

@@ -1,12 +1,9 @@
-/* @import '       '; */
 @import './global.css';
+
 /* @import './index.css'; */
+/* @import '       '; */
 
 p {
     color: red;
     display: flex;
 }
-
-
-
-/* importLoaders 属性用于制定当前语句需要几个前置loader进行处理 */
