@@ -39,7 +39,7 @@ module.exports = {
   },
   resolveLoader: {
     // modules: [path.join(__dirname, 'loaders'), 'node_modules']
-    modules: [path.join(__dirname, 'lib/src'), 'node_modules']
+    modules: ['node_modules']
   },
   module: {
     rules: [
@@ -49,7 +49,7 @@ module.exports = {
           // 'style-loader',
           "to-string-loader",
           {
-            loader: "css-loader",
+            loader: path.join(__dirname, 'lib/src/index.js'),
             options: {
               // url: false,
               // import: true,

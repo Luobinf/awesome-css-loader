@@ -48,32 +48,32 @@ module.exports = function (item) {
 
 /***/ }),
 
-/***/ "./lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/global.css":
-/*!**********************************************************************************************************************!*\
-  !*** ./lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/global.css ***!
-  \**********************************************************************************************************************/
+/***/ "./lib/src/index.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/global.css":
+/*!*****************************************************************************************************************!*\
+  !*** ./lib/src/index.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/global.css ***!
+  \*****************************************************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var ___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___ = __webpack_require__ (/*! ../lib/runtime/noSourceMap.js */ "./lib/runtime/noSourceMap.js");
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__ (/*! ../lib/runtime/api.js */ "./lib/runtime/api.js");
 
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___);
-___CSS_LOADER_EXPORT___.push([module.id, "/* @import './index.less'; */\n\nbody {\n    background-color: skyblue;\n    display: -ms-flexbox;\n    display: flex;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n    background-color: skyblue;\n    display: -ms-flexbox;\n    display: flex;\n}", ""]);
 
 module.exports =  ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
 
-/***/ "./lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/index.css":
-/*!*********************************************************************************************************************!*\
-  !*** ./lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/index.css ***!
-  \*********************************************************************************************************************/
+/***/ "./lib/src/index.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/index.css":
+/*!****************************************************************************************************************!*\
+  !*** ./lib/src/index.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/index.css ***!
+  \****************************************************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var ___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___ = __webpack_require__ (/*! ../lib/runtime/noSourceMap.js */ "./lib/runtime/noSourceMap.js");
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__ (/*! ../lib/runtime/api.js */ "./lib/runtime/api.js");
-var __CSS_LOADER_AT_RULE_IMPORT_0__ = __webpack_require__ (/*! -!../lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!../node_modules/postcss-loader/dist/cjs.js!./global.css */ "./lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/global.css");
+var __CSS_LOADER_AT_RULE_IMPORT_0__ = __webpack_require__ (/*! -!../lib/src/index.js??ruleSet[1].rules[0].use[1]!../node_modules/postcss-loader/dist/cjs.js!./global.css */ "./lib/src/index.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/global.css");
 
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___);
 ___CSS_LOADER_EXPORT___.i(__CSS_LOADER_AT_RULE_IMPORT_0__, "");
@@ -91,7 +91,7 @@ module.exports =  ___CSS_LOADER_EXPORT___;
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
-        var result = __webpack_require__(/*! !!../lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!../node_modules/postcss-loader/dist/cjs.js!./index.css */ "./lib/src/css-loader.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/index.css");
+        var result = __webpack_require__(/*! !!../lib/src/index.js??ruleSet[1].rules[0].use[1]!../node_modules/postcss-loader/dist/cjs.js!./index.css */ "./lib/src/index.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/index.css");
 
         if (result && result.__esModule) {
             result = result.default;
