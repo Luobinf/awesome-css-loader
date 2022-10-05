@@ -77,7 +77,7 @@ var __CSS_LOADER_AT_RULE_IMPORT_0__ = __webpack_require__ (/*! -!../lib/src/inde
 
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___);
 ___CSS_LOADER_EXPORT___.i(__CSS_LOADER_AT_RULE_IMPORT_0__, "");
-___CSS_LOADER_EXPORT___.push([module.id, "/* @import './index.css'; */\n/* @import '       '; */\n\np {\n    color: red;\n    display: -ms-flexbox;\n    display: flex;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* @import './index.css'; */\n/* @import '       '; */\n\np {\n    color: red;\n    display: -ms-flexbox;\n    display: flex; \n    /* webpackIgnore: true 这种情况需要忽略下面 url 的解析*/\n    background-image:  url('');\n}\n", ""]);
 
 module.exports =  ___CSS_LOADER_EXPORT___;
 

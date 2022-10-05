@@ -50,6 +50,8 @@ importLoaders 属性用法详见 webpack.config.js 配置文件。
 
 ## CSS-LOADER 思路
 
+CSS-LOADER 主要用于解析 url、import 语法。
+
 
 
 

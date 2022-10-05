@@ -5,5 +5,7 @@
 
 p {
     color: red;
-    display: flex;
+    display: flex; 
+    /* webpackIgnore: true 这种情况需要忽略下面 url 的解析*/
+    background-image:  url('');
 }
