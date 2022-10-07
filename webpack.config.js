@@ -47,7 +47,7 @@ module.exports = {
         test: /\.css$/,
         use: [
           // 'style-loader',
-          "to-string-loader",
+          // "to-string-loader",
           {
             loader: path.join(__dirname, 'lib/src/index.js'),
             options: {

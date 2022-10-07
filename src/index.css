@@ -1,14 +1,7 @@
 @import './global.css';
 
-/* @import './index.css'; */
-/* @import '       '; */
-
 body {
     color: red;
     display: flex; 
     height: 200px;
-    /* webpackIgnore: true 这种情况需要忽略下面 url 的解析*/
-    /* background-image:  url('') url('cccc'); */
-    /* background-image:  url('ppp'); */
-    background-image:  url('./image.png');
 }
